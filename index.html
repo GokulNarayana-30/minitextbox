@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="msg.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p>
+                <h2 style="text-align: center; font-weight: 300;">Pass The Message</h2>
+                <p class="i" style="border-bottom: 2px solid rgb(225, 150, 150); width: 250px;"></p>
+            </p>
+            <p>
+                <label for="message-input" class="ii">Enter a message</label>
+                <br></br>
+                <button style="width:40px;height=200px;">✉</button><input id="message-input" class="iii" type="text">
+            </p>
+            <p>
+                <button id="k" onclick="getMessage()">Submit</button>
+            </p>
+            <p id="message-output" style=" text-transform: uppercase;"></p>
+
+        </div>
+    </div>
+</body>
+<script src="msg.js"></script>
+</html>

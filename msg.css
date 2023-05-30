@@ -1,0 +1,38 @@
+body{
+    background-image:url(img.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:gray;
+}
+p{
+    margin-left: 650px;
+    padding-bottom: 50px;
+}
+.i{
+    margin-right: 100px;
+}
+.ii{
+font-size: 30px;
+}
+.iii{
+    width: 200px;
+    height: 40px;
+    box-shadow: 5px 10px ;
+}
+button{
+    width:60px;
+    height:45px;
+}
+button:hover{
+    background-color: black;
+    color: aqua;
+    box-shadow: 5px 10px black ;
+}
+#message-output{
+    font-size: 30px;
+    font-style:italic;
+    font-weight: 100px;
+    margin-left: 700px;
+}
